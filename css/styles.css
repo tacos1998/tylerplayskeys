@@ -179,7 +179,7 @@ h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 30px; }
 h2.twitter-post-username span { color: #848789; font-weight: 300; }
-h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../img/main-logo.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
+h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../img/test_logo.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
 /* ==========================================================================
 User Styles
 ========================================================================== */
@@ -195,11 +195,11 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #64c29e; text-decoration: none; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-.hero { background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 685px; }
+.hero { background: url(../img/hero.png) no-repeat top center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 685px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: url(../img/main-logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: url(../img/test_logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; background-size: contain; }
 .responsive-logo { display: hidden; }
-header { background-color: #f4f5fc; }
+header { background-color: #fbfbfb; }
 header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
