@@ -195,7 +195,7 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #64c29e; text-decoration: none; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-.hero { background: url(../img/hero.png) no-repeat top center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 685px; }
+.hero { background: url(../img/hero.png) no-repeat top center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 590px; margin-top: 20px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
 .logo-holder { background: url(../img/test_logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; background-size: contain; }
 .responsive-logo { display: hidden; }
@@ -269,3 +269,15 @@ footer p { font-size: 13px; margin: 0; }
 .pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
+.title-text {  font-size: 4em; }
+#title-left { font-family: 'Courier New', Courier, monospace; text-align: left; }
+#title-right { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.title-top { margin-top: 50px; }
+.title-bottom { margin-top: 50px; }
+#title-left-bottom { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
+#title-right-bottom { text-align: right; font-weight: bold; margin-left: 30px; font-size: 3.5em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#logo-left { font-family: 'Courier New', Courier, monospace; font-size: 1em; }
+#logo-right { font-weight: bold; margin-left: 30px; font-size: 1em; background: -webkit-linear-gradient(90deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.title-name { margin-top: 10px; }
+#name-left { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
+#name-right { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
