@@ -194,7 +194,8 @@ User Styles
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
-p.text-intro { font-size: 18px; }
+p.text-intro { font-size: 33px; text-align: left; color: white; }
+p.text-intro-smaller { font-size: 18px; text-align: left; color: white; }
 .hero { background: url(../img/hero.png) no-repeat top center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 590px; margin-top: 20px; }
 nav { height: 85px; margin-top: 30px; position: relative; }
 .logo-holder { background: url(../img/test_logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; background-size: contain; }
@@ -204,7 +205,7 @@ header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
-.intro { padding: 115px 0; background-color: #83ddc2; }
+.intro { padding: 115px 0; background: #09009f; background: -webkit-linear-gradient(to right, #09009f, #00dc80); background: linear-gradient(to right, #09009f, #00dc80); }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
@@ -281,3 +282,4 @@ footer p { font-size: 13px; margin: 0; }
 .title-name { margin-top: 10px; }
 #name-left { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
 #name-right { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
+#intro { color: white; text-decoration: underline; }
