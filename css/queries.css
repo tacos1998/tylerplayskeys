@@ -60,19 +60,39 @@ CSS Queries
 }
 
 @media screen and (max-width:740px) {
-    .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 50%; height: 590px; margin-top: 20px; }
-}
-
-@media screen and (max-width:704px) {
-    .hero { background-size: 50%; height: 590px; margin-top: 20px; }
+    /* .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 50%; height: 590px; margin-top: 20px; } */
     #name-left-sm { font-size: 3.2em }
     #name-right-sm { font-size: 3.2em }
     #title-left-sm { font-size: 2.1em }
     #title-right-sm { font-size: 2.1em }
     #title-left-bottom-sm { font-size: 2.1em }
     #title-right-bottom-sm { font-size: 2.1em }
-    .title-top-sm { margin-top: 120px; }
-    .title-bottom-sm { margin-top: 120px; }
+    .title-top-sm { margin-top: 125px; }
+    .title-bottom-sm { margin-top: 125px; }
+}
+
+@media screen and (max-width:704px) {
+    .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 590px; margin-top: 20px; }
+    #name-left-sm { font-size: 3.2em }
+    #name-right-sm { font-size: 3.2em }
+    #title-left-sm { font-size: 2em }
+    #title-right-sm { font-size: 2em }
+    #title-left-bottom-sm { font-size: 2em }
+    #title-right-bottom-sm { font-size: 2em }
+    .title-top-sm { margin-top: 130px; }
+    .title-bottom-sm { margin-top: 130px; }
+}
+
+@media screen and (max-width:690px) {
+    .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: contain; height: 590px; margin-top: 20px; }
+    #name-left-sm { font-size: 3em }
+    #name-right-sm { font-size: 3em }
+    #title-left-sm { font-size: 1.8em }
+    #title-right-sm { font-size: 1.8em }
+    #title-left-bottom-sm { font-size: 1.8em }
+    #title-right-bottom-sm { font-size: 1.8em }
+    .title-top-sm { margin-top: 140px; }
+    .title-bottom-sm { margin-top: 140px; }
 }
 
 @media screen and (max-width:670px) {
@@ -80,47 +100,140 @@ CSS Queries
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
     #youtube-container { height: 400px; }
     #musician-small { background-position-y: -30px; }
-    .hero { background-size: 50%; height: 590px; margin-top: 20px; }
-    #name-left-sm { font-size: 3em }
-    #name-right-sm { font-size: 3em }
-    #title-left-sm { font-size: 2em }
-    #title-right-sm { font-size: 2em }
-    #title-left-bottom-sm { font-size: 2em }
-    #title-right-bottom-sm { font-size: 2em }
+    .hero { height: 590px; margin-top: 20px; }
+    #title-left-sm { font-size: 1.5em }
+    #title-right-sm { font-size: 1.5em }
+    #title-left-bottom-sm { font-size: 1.5em }
+    #title-right-bottom-sm { font-size: 1.5em }
+    .title-top-sm { margin-top: 150px; }
+    .title-bottom-sm { margin-top: 150px; }
 }
 
 @media screen and (max-width:640px) {
+    #name-left-sm { font-size: 2.8em }
+    #name-right-sm { font-size: 2.8em }
+    #title-left-sm { font-size: 1.3em }
+    #title-right-sm { font-size: 1.3em }
+    #title-left-bottom-sm { font-size: 1.3em }
+    #title-right-bottom-sm { font-size: 1.3em }
+    .title-top-sm { margin-top: 160px; }
+    .title-bottom-sm { margin-top: 160px; }
     #musician-small { background-position-y: -20px; }
 }
 
 @media screen and (max-width:610px) {
+    #name-left-sm { font-size: 2.6em }
+    #name-right-sm { font-size: 2.6em }
+    #title-left-sm { font-size: 1.2em }
+    #title-right-sm { font-size: 1.2em }
+    #title-left-bottom-sm { font-size: 1.2em }
+    #title-right-bottom-sm { font-size: 1.2em }
+    .title-top-sm { margin-top: 170px; }
+    .title-bottom-sm { margin-top: 170px; }
     #musician-small { background-position-y: -10px; }
 }
 
+/* @media screen and (max-width:580px) {
+    .title-name-sm { display: none; }
+    .title-top-sm { display: none; }
+    .title-bottom-sm { display: none; }
+    .title-name-xs { display: block; }
+    .hero { background-size: 350px; }
+    #title-name-middle-xs { margin-top: 0px; }
+    #title-name-bottom-xs { margin-top: 255px; }
+    #subtitle-left-xs { font-size: 2em; }
+    #subtitle-right-xs { font-size: 2em; }
+    #musician-small { background-position-y: 0px; }
+    #youtube-container { height: 350px; }
+} */
+
 @media screen and (max-width:580px) {
+    .title-name-sm { display: none; }
+    .title-top-sm { display: none; }
+    .title-bottom-sm { display: none; }
+    .title-name-xs { display: block; }
+    .hero { background-size: 350px; }
+    #title-name-middle-xs { margin-top: 0px; }
+    #title-name-bottom-xs { margin-top: 255px; }
+    #subtitle-left-xs { font-size: 2em; }
+    #subtitle-right-xs { font-size: 2em; }
+    #subtitle-bottom-left-xs { font-size: 2em; }
+    #subtitle-bottom-right-xs { font-size: 2em; }
+    #musician-small { background-position-y: 0px; }
+    #youtube-container { height: 350px; }
+}
+
+@media screen and (max-width:520px) {
+    .title-name-sm { display: none; }
+    .title-top-sm { display: none; }
+    .title-bottom-sm { display: none; }
+    .title-name-xs { display: block; }
+    .hero { background-size: 350px; }
+    #title-name-middle-xs { margin-top: 0px; }
+    #title-name-bottom-xs { margin-top: 255px; }
+    #subtitle-left-xs { font-size: 1.8em; }
+    #subtitle-right-xs { font-size: 1.8em; }
+    #subtitle-bottom-left-xs { font-size: 1.8em; }
+    #subtitle-bottom-right-xs { font-size: 1.8em; }
     #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
 }
 
 @media screen and (max-width:480px) {
+    .title-text { display: inline-flex; margin-top: 0px; margin-bottom: 0px; }
+    #mobile-title { text-align: center; }
+    #mobile-name { display: none; }
+    .subtitle-text { margin-top: 0px; margin-bottom: 0px; }
+    #title-name-middle-xs { margin-top: 70px; }
+    #title-name-bottom-xs { margin-top: 330px; }
+    #subtitle-left-xs { font-size: 1.6em; }
+    #subtitle-right-xs { font-size: 1.6em; }
+    #subtitle-bottom-left-xs { font-size: 1.5em; }
+    #subtitle-bottom-right-xs { font-size: 1.5em; }
     #youtube-container { height: 300px; }
 }
 
 @media screen and (max-width:425px) {
-    .title-name-sm { display: none; }
+    /* .title-name-sm { display: none; }
     .title-top-sm { display: none; }
     .title-bottom-sm { display: none; }
-    .title-name-xs { display: block; }
+    .title-name-xs { display: block; } */
     
     .hero { background-size: 80%; height: 590px; margin-top: 0px; }
     .title-text { display: inline-flex; margin-top: 0px; margin-bottom: 0px; }
     #mobile-title { text-align: center; }
     #mobile-name { display: none; }
     .subtitle-text { margin-top: 0px; margin-bottom: 0px; }
+    #title-name-middle-xs { margin-top: 80px; }
+    #title-name-bottom-xs { margin-top: 340px; }
+    #subtitle-left-xs { font-size: 1.4em; }
+    #subtitle-right-xs { font-size: 1.4em; }
+    #subtitle-bottom-left-xs { font-size: 1.4em; }
+    #subtitle-bottom-right-xs { font-size: 1.4em; }
 }
 
 @media screen and (max-width:420px) {
     #youtube-container { height: 250px; }
+}
+
+@media screen and (max-width:375px) {
+    .hero { background-size: 90%; }
+    #title-name-middle-xs { margin-top: 80px; }
+    #title-name-bottom-xs { margin-top: 340px; }
+    #subtitle-left-xs { font-size: 1.2em; }
+    #subtitle-right-xs { font-size: 1.2em; }
+    #subtitle-bottom-left-xs { font-size: 1.2em; }
+    #subtitle-bottom-right-xs { font-size: 1.2em; }
+}
+
+@media screen and (max-width:350px) {
+    .hero { background-size: 90%; }
+    #title-name-middle-xs { margin-top: 80px; }
+    #title-name-bottom-xs { margin-top: 340px; }
+    #subtitle-left-xs { font-size: 1.2em; }
+    #subtitle-right-xs { font-size: 1.2em; }
+    #subtitle-bottom-left-xs { font-size: 0.2em; }
+    #subtitle-bottom-right-xs { font-size: 0.2em; }
 }
 
 @media screen and (max-width:340px) {

@@ -279,10 +279,10 @@ footer p { font-size: 13px; margin: 0; }
 #title-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
 #title-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.4em; }
 .title-top-lg { margin-top: 50px; }
-.title-top-md { display: none; margin-top: 110px; }
+.title-top-md { display: none; margin-top: 105px; }
 .title-top-sm { display: none; margin-top: 110px; }
 .title-bottom-lg { margin-top: 50px; }
-.title-bottom-md { display: none; margin-top: 110px; }
+.title-bottom-md { display: none; margin-top: 105px; }
 .title-bottom-sm { display: none; margin-top: 110px; }
 #title-left-bottom-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
 #title-right-bottom-lg { text-align: right; font-weight: bold; margin-left: 30px; font-size: 3.5em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
@@ -304,10 +304,12 @@ footer p { font-size: 13px; margin: 0; }
 #name-right-sm { text-align: right; font-weight: bold; margin-left: 30px; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5em; }
 #name-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.8em; }
 #name-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
-#name-left-mobile { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
-#name-right-mobile { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5em; }
+#name-left-mobile { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.1em; }
+#name-right-mobile { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; }
 #subtitle-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 1em; }
 #subtitle-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
+#subtitle-bottom-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 1em; }
+#subtitle-bottom-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
 #intro { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
