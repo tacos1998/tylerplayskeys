@@ -4,7 +4,24 @@ CSS Queries
 
 @media screen and (max-width:640px) {
     .shop-btn { padding: 15px 25px; font-size: 10px; }
+    .section-1 { background: url(../img/Cerner-clipped.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
+
+@media screen and (max-width:1004px) {
+    #photo-text { font-size: 9px; }
+}
+
+@media screen and (max-width:991px) {
+    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
+    .small-featured-img { height: 350px; width: 100%; position: absolute; bottom: 0; }
+    #photo-text { font-size: 10px; }
+}
+
+@media screen and (max-width:670px) {
+    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
+    .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
+}
+
 @media screen and (max-width:1200px) {
     p{font-size: 14px; }
     .thin-sep { display: none; }
