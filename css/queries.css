@@ -21,6 +21,12 @@ CSS Queries
     #photo-text { font-size: 10px; }
     #freelance-music-text { font-size: 14px; }
     #musician-small { background-position-y: -53px; }
+    .title-name-lg { display: none; }
+    .title-name-md { display: block; }
+    .title-top-lg { display: none; }
+    .title-top-md { display: block; }
+    .title-bottom-lg { display: none; }
+    .title-bottom-md { display: block; }
 }
 
 @media screen and (max-width:944px) {
@@ -44,11 +50,43 @@ CSS Queries
     #musician-small { background-position-y: 0px; }
 }
 
+@media screen and (max-width:768px) {
+    .title-name-md { display: none; }
+    .title-name-sm { display: block; }
+    .title-top-md { display: none; }
+    .title-top-sm { display: block; }
+    .title-bottom-md { display: none; }
+    .title-bottom-sm { display: block; }
+}
+
+@media screen and (max-width:740px) {
+    .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 50%; height: 590px; margin-top: 20px; }
+}
+
+@media screen and (max-width:704px) {
+    .hero { background-size: 50%; height: 590px; margin-top: 20px; }
+    #name-left-sm { font-size: 3.2em }
+    #name-right-sm { font-size: 3.2em }
+    #title-left-sm { font-size: 2.2em }
+    #title-right-sm { font-size: 2.2em }
+    #title-left-bottom-sm { font-size: 2.2em }
+    #title-right-bottom-sm { font-size: 2.2em }
+    .title-top-sm { margin-top: 120px; }
+    .title-bottom-sm { margin-top: 120px; }
+}
+
 @media screen and (max-width:670px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
     #youtube-container { height: 400px; }
     #musician-small { background-position-y: -30px; }
+    .hero { background-size: 50%; height: 590px; margin-top: 20px; }
+    #name-left-sm { font-size: 3em }
+    #name-right-sm { font-size: 3em }
+    #title-left-sm { font-size: 2em }
+    #title-right-sm { font-size: 2em }
+    #title-left-bottom-sm { font-size: 2em }
+    #title-right-bottom-sm { font-size: 2em }
 }
 
 @media screen and (max-width:640px) {
@@ -66,6 +104,15 @@ CSS Queries
 
 @media screen and (max-width:480px) {
     #youtube-container { height: 300px; }
+}
+
+@media screen and (max-width:425px) {
+    .title-name-sm { display: none; }
+    .title-top-sm { display: none; }
+    .title-bottom-sm { display: none; }
+    
+    /* this line breaks the navbar for some reason? */
+    /* .hero { background: url(../img/hero-web-size.png) no-repeat bottom center #fbfbfb; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 80%; height: 590px;  */
 }
 
 @media screen and (max-width:420px) {

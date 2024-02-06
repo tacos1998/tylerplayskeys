@@ -272,17 +272,35 @@ footer p { font-size: 13px; margin: 0; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
 .title-text {  font-size: 4em; }
-#title-left { font-family: 'Courier New', Courier, monospace; text-align: left; }
-#title-right { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.title-top { margin-top: 50px; }
-.title-bottom { margin-top: 50px; }
-#title-left-bottom { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
-#title-right-bottom { text-align: right; font-weight: bold; margin-left: 30px; font-size: 3.5em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#title-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; }
+#title-right-lg { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#title-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
+#title-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.4em; }
+#title-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
+#title-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.4em; }
+.title-top-lg { margin-top: 50px; }
+.title-top-md { display: none; margin-top: 110px; }
+.title-top-sm { display: none; margin-top: 110px; }
+.title-bottom-lg { margin-top: 50px; }
+.title-bottom-md { display: none; margin-top: 110px; }
+.title-bottom-sm { display: none; margin-top: 110px; }
+#title-left-bottom-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
+#title-right-bottom-lg { text-align: right; font-weight: bold; margin-left: 30px; font-size: 3.5em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#title-left-bottom-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
+#title-right-bottom-md { text-align: right; font-weight: bold; margin-left: 30px; font-size: 2.4em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#title-left-bottom-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
+#title-right-bottom-sm { text-align: right; font-weight: bold; margin-left: 30px; font-size: 2.4em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 #logo-left { font-family: 'Courier New', Courier, monospace; font-size: 1em; }
 #logo-right { font-weight: bold; margin-left: 30px; font-size: 1em; background: -webkit-linear-gradient(90deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.title-name { margin-top: 10px; }
-#name-left { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
-#name-right { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
+.title-name-lg { margin-top: 10px; }
+.title-name-md { display: none; }
+.title-name-sm { display: none; }
+#name-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
+#name-right-lg { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
+#name-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.8em; }
+#name-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.8em; }
+#name-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
+#name-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5em; }
 #intro { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
