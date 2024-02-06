@@ -11,15 +11,41 @@ CSS Queries
     #photo-text { font-size: 9px; }
 }
 
+@media screen and (max-width:995px) {
+    #freelance-music-text { font-size: 13px; }
+}
+
 @media screen and (max-width:991px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 350px; width: 100%; position: absolute; bottom: 0; }
     #photo-text { font-size: 10px; }
+    #freelance-music-text { font-size: 14px; }
+}
+
+@media screen and (max-width:832px) {
+    #youtube-container { height: 500px; }
 }
 
 @media screen and (max-width:670px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
+    #youtube-container { height: 400px; }
+}
+
+@media screen and (max-width:580px) {
+    #youtube-container { height: 350px; }
+}
+
+@media screen and (max-width:480px) {
+    #youtube-container { height: 300px; }
+}
+
+@media screen and (max-width:420px) {
+    #youtube-container { height: 250px; }
+}
+
+@media screen and (max-width:340px) {
+    #youtube-container { height: 200px; }
 }
 
 @media screen and (max-width:1200px) {
