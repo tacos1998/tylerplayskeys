@@ -110,8 +110,13 @@ CSS Queries
     .title-name-sm { display: none; }
     .title-top-sm { display: none; }
     .title-bottom-sm { display: none; }
+    .title-name-xs { display: block; }
     
-    .hero { background-size: 80%; height: 590px; }
+    .hero { background-size: 80%; height: 590px; margin-top: 0px; }
+    .title-text { display: inline-flex; margin-top: 0px; margin-bottom: 0px; }
+    #mobile-title { text-align: center; }
+    #mobile-name { display: none; }
+    .subtitle-text { margin-top: 0px; margin-bottom: 0px; }
 }
 
 @media screen and (max-width:420px) {
