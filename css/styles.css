@@ -208,7 +208,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
 .intro { padding: 115px 0; background: #09009f; background: -webkit-linear-gradient(to right, #09009f, #00dc80); background: linear-gradient(to right, #09009f, #00dc80); }
 .section-1 { background: url(../img/Cerner.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-2 { background: black no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-4 { background: url(../img/red-bike.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 .section-text { position: relative; height: 600px; }
@@ -286,3 +286,4 @@ footer p { font-size: 13px; margin: 0; }
 #intro { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
+.youtube-video { aspect-ratio: 16 / 9; width: 100%; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
