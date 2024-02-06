@@ -20,19 +20,47 @@ CSS Queries
     .small-featured-img { height: 350px; width: 100%; position: absolute; bottom: 0; }
     #photo-text { font-size: 10px; }
     #freelance-music-text { font-size: 14px; }
+    #musician-small { background-position-y: -53px; }
+}
+
+@media screen and (max-width:944px) {
+    #musician-small { background-position-y: -45px; }
+}
+
+@media screen and (max-width:906px) {
+    #musician-small { background-position-y: -35px; }
+}
+
+@media screen and (max-width:872px) {
+    #musician-small { background-position-y: -25px; }
+}
+
+@media screen and (max-width:850px) {
+    #musician-small { background-position-y: -15px; }
 }
 
 @media screen and (max-width:832px) {
     #youtube-container { height: 500px; }
+    #musician-small { background-position-y: 0px; }
 }
 
 @media screen and (max-width:670px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
     #youtube-container { height: 400px; }
+    #musician-small { background-position-y: -30px; }
+}
+
+@media screen and (max-width:640px) {
+    #musician-small { background-position-y: -20px; }
+}
+
+@media screen and (max-width:610px) {
+    #musician-small { background-position-y: -10px; }
 }
 
 @media screen and (max-width:580px) {
+    #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
 }
 
