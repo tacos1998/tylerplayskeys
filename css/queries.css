@@ -101,10 +101,10 @@ CSS Queries
     #youtube-container { height: 400px; }
     #musician-small { background-position-y: -30px; }
     .hero { height: 590px; margin-top: 20px; }
-    #title-left-sm { font-size: 1.5em }
-    #title-right-sm { font-size: 1.5em }
-    #title-left-bottom-sm { font-size: 1.5em }
-    #title-right-bottom-sm { font-size: 1.5em }
+    #title-left-sm { font-size: 1.6em }
+    #title-right-sm { font-size: 1.6em }
+    #title-left-bottom-sm { font-size: 1.6em }
+    #title-right-bottom-sm { font-size: 1.6em }
     .title-top-sm { margin-top: 150px; }
     .title-bottom-sm { margin-top: 150px; }
 }
@@ -153,8 +153,8 @@ CSS Queries
     .title-bottom-sm { display: none; }
     .title-name-xs { display: block; }
     .hero { background-size: 350px; }
-    #title-name-middle-xs { margin-top: 0px; }
-    #title-name-bottom-xs { margin-top: 255px; }
+    #title-name-middle-xs { margin-top: -10px; }
+    #title-name-bottom-xs { margin-top: 265px; }
     #subtitle-left-xs { font-size: 2em; }
     #subtitle-right-xs { font-size: 2em; }
     #subtitle-bottom-left-xs { font-size: 2em; }
@@ -199,17 +199,18 @@ CSS Queries
     .title-bottom-sm { display: none; }
     .title-name-xs { display: block; } */
     
-    .hero { background-size: 80%; height: 590px; margin-top: 0px; }
+    /* .hero { background-size: 80%; height: 590px; margin-top: 0px; } */
+    .hero { background-size: 350px; height: 590px; margin-top: 0px; }
     .title-text { display: inline-flex; margin-top: 0px; margin-bottom: 0px; }
     #mobile-title { text-align: center; }
     #mobile-name { display: none; }
     .subtitle-text { margin-top: 0px; margin-bottom: 0px; }
-    #title-name-middle-xs { margin-top: 80px; }
-    #title-name-bottom-xs { margin-top: 340px; }
+    #title-name-middle-xs { margin-top: 70px; }
+    #title-name-bottom-xs { margin-top: 350px; }
     #subtitle-left-xs { font-size: 1.4em; }
     #subtitle-right-xs { font-size: 1.4em; }
-    #subtitle-bottom-left-xs { font-size: 1.4em; }
-    #subtitle-bottom-right-xs { font-size: 1.4em; }
+    #subtitle-bottom-left-xs { font-size: 1.3em; }
+    #subtitle-bottom-right-xs { font-size: 1.3em; }
 }
 
 @media screen and (max-width:420px) {
@@ -217,27 +218,49 @@ CSS Queries
 }
 
 @media screen and (max-width:375px) {
-    .hero { background-size: 90%; }
+    .hero { background-size: 350px; }
+    #title-name-middle-xs { margin-top: 60px; }
+    #title-name-bottom-xs { margin-top: 360px; }
+    #subtitle-left-xs { font-size: 1.2em; }
+    #subtitle-right-xs { font-size: 1.2em; }
+    #subtitle-bottom-left-xs { font-size: 1.1em; }
+    #subtitle-bottom-right-xs { font-size: 1.1em; }
+}
+
+@media screen and (max-width:360px) {
+    .hero { background-size: 340px; }
     #title-name-middle-xs { margin-top: 80px; }
     #title-name-bottom-xs { margin-top: 340px; }
     #subtitle-left-xs { font-size: 1.2em; }
     #subtitle-right-xs { font-size: 1.2em; }
-    #subtitle-bottom-left-xs { font-size: 1.2em; }
-    #subtitle-bottom-right-xs { font-size: 1.2em; }
+    #subtitle-bottom-left-xs { font-size: 1em; }
+    #subtitle-bottom-right-xs { font-size: 1em; }
 }
 
 @media screen and (max-width:350px) {
-    .hero { background-size: 90%; }
-    #title-name-middle-xs { margin-top: 80px; }
+    .hero { background-size: 330px; }
+    #title-name-middle-xs { margin-top: 100px; }
     #title-name-bottom-xs { margin-top: 340px; }
-    #subtitle-left-xs { font-size: 1.2em; }
-    #subtitle-right-xs { font-size: 1.2em; }
-    #subtitle-bottom-left-xs { font-size: 0.2em; }
-    #subtitle-bottom-right-xs { font-size: 0.2em; }
+    #subtitle-left-xs { font-size: 1.1em; }
+    #subtitle-right-xs { font-size: 1.1em; }
+    #subtitle-bottom-left-xs { font-size: 1em; }
+    #subtitle-bottom-right-xs { font-size: 1em; }
 }
 
 @media screen and (max-width:340px) {
     #youtube-container { height: 200px; }
+}
+
+@media screen and (max-width:330px) {
+    .hero { background-size: 310px; height: 510px; }
+    #name-right-mobile { font-size: 2.6em; }
+    #name-left-mobile { font-size: 2.6em; }
+    #title-name-middle-xs { margin-top: 20px; }
+    #title-name-bottom-xs { margin-top: 20px; }
+    #subtitle-left-xs { font-size: 1.1em; }
+    #subtitle-right-xs { font-size: 1.1em; }
+    #subtitle-bottom-left-xs { font-size: 1em; }
+    #subtitle-bottom-right-xs { font-size: 1em; }
 }
 
 @media screen and (max-width:1200px) {

@@ -274,10 +274,10 @@ footer p { font-size: 13px; margin: 0; }
 .title-text {  font-size: 4em; }
 #title-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; }
 #title-right-lg { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#title-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
-#title-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.4em; }
-#title-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
-#title-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.4em; }
+#title-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.2em; }
+#title-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.2em; }
+#title-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.2em; }
+#title-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.2em; }
 .title-top-lg { margin-top: 50px; }
 .title-top-md { display: none; margin-top: 105px; }
 .title-top-sm { display: none; margin-top: 110px; }
