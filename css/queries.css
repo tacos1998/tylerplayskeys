@@ -21,6 +21,10 @@ CSS Queries
 }
 
 @media screen and (max-width:1057px) {
+    p.text-intro { font-size: 25px; }
+}
+
+@media screen and (max-width:1020px) {
     p.text-intro { font-size: 24px; }
 }
 
@@ -113,8 +117,8 @@ CSS Queries
     .title-bottom-sm { margin-top: 125px; }
 }
 
-@media screen and (max-width:716px) {
-    p.text-intro { font-size: 24px; }
+@media screen and (max-width:717px) {
+    p.text-intro { font-size: 25px; }
 }
 
 @media screen and (max-width:704px) {
@@ -139,6 +143,7 @@ CSS Queries
     #title-right-bottom-sm { font-size: 1.8em }
     .title-top-sm { margin-top: 140px; }
     .title-bottom-sm { margin-top: 140px; }
+    p.text-intro { font-size: 24px; }
 }
 
 @media screen and (max-width:670px) {
@@ -156,7 +161,7 @@ CSS Queries
 }
 
 @media screen and (max-width:666px) {
-    p.text-intro { font-size: 22px; }
+    p.text-intro { font-size: 23px; }
 }
 
 @media screen and (max-width:640px) {
@@ -169,10 +174,11 @@ CSS Queries
     .title-top-sm { margin-top: 160px; }
     .title-bottom-sm { margin-top: 160px; }
     #musician-small { background-position-y: -20px; }
+    p.text-intro { font-size: 22px; }
 }
 
 @media screen and (max-width:617px) {
-    p.text-intro { font-size: 20px; }
+    p.text-intro { font-size: 21px; }
     /* p.text-intro-smaller { font-size: 16px; } */
 }
 
@@ -186,6 +192,11 @@ CSS Queries
     .title-top-sm { margin-top: 170px; }
     .title-bottom-sm { margin-top: 170px; }
     #musician-small { background-position-y: -10px; }
+}
+
+@media screen and (max-width:592px) {
+    p.text-intro { font-size: 20px; }
+    /* p.text-intro-smaller { font-size: 16px; } */
 }
 
 /* @media screen and (max-width:580px) {
@@ -260,6 +271,8 @@ CSS Queries
     #subtitle-bottom-right-xs { font-size: 1.5em; }
     #youtube-container { height: 300px; }
 }
+
+/* NOTE TO SELF: this is where header splits from two to three lines */
 
 @media screen and (max-width:470px) {
     p.text-intro { font-size: 24px; }
