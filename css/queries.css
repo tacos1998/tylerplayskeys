@@ -7,6 +7,23 @@ CSS Queries
     .section-1 { background: url(../img/Cerner-clipped.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
 
+@media screen and (max-width:1277px) {
+    p.text-intro { font-size: 30px; }
+}
+
+@media screen and (max-width:1205px) {
+    p.text-intro { font-size: 28px; }
+}
+
+@media screen and (max-width:1130px) {
+    p.text-intro { font-size: 26px; }
+    p.text-intro-smaller { font-size: 16px; }
+}
+
+@media screen and (max-width:1057px) {
+    p.text-intro { font-size: 24px; }
+}
+
 @media screen and (max-width:1004px) {
     #photo-text { font-size: 9px; }
 }
@@ -27,10 +44,20 @@ CSS Queries
     .title-top-md { display: block; }
     .title-bottom-lg { display: none; }
     .title-bottom-md { display: block; }
+    p.text-intro { font-size: 36px; }
+    p.text-intro-smaller { font-size: 18px; }
+}
+
+@media screen and (max-width:959px) {
+    p.text-intro { font-size: 34px; }
 }
 
 @media screen and (max-width:944px) {
     #musician-small { background-position-y: -45px; }
+}
+
+@media screen and (max-width:910px) {
+    p.text-intro { font-size: 32px; }
 }
 
 @media screen and (max-width:906px) {
@@ -39,6 +66,11 @@ CSS Queries
 
 @media screen and (max-width:872px) {
     #musician-small { background-position-y: -25px; }
+}
+
+@media screen and (max-width:861px) {
+    p.text-intro { font-size: 30px; }
+    p.text-intro-smaller { font-size: 16px; }
 }
 
 @media screen and (max-width:850px) {
@@ -50,13 +82,23 @@ CSS Queries
     #musician-small { background-position-y: 0px; }
 }
 
+@media screen and (max-width:812px) {
+    p.text-intro { font-size: 28px; }
+}
+
 @media screen and (max-width:768px) {
+    .intro { padding: 25px 30px; background: #09009f; background: -webkit-linear-gradient(to right, #09009f, #00dc95); background: linear-gradient(to right, #09009f, #00dc95); }
     .title-name-md { display: none; }
     .title-name-sm { display: block; }
     .title-top-md { display: none; }
     .title-top-sm { display: block; }
     .title-bottom-md { display: none; }
     .title-bottom-sm { display: block; }
+}
+
+@media screen and (max-width:763px) {
+    p.text-intro { font-size: 26px; }
+    p.text-intro-smaller { font-size: 14px; }
 }
 
 @media screen and (max-width:740px) {
@@ -69,6 +111,10 @@ CSS Queries
     #title-right-bottom-sm { font-size: 2.1em }
     .title-top-sm { margin-top: 125px; }
     .title-bottom-sm { margin-top: 125px; }
+}
+
+@media screen and (max-width:716px) {
+    p.text-intro { font-size: 24px; }
 }
 
 @media screen and (max-width:704px) {
@@ -109,6 +155,10 @@ CSS Queries
     .title-bottom-sm { margin-top: 150px; }
 }
 
+@media screen and (max-width:666px) {
+    p.text-intro { font-size: 22px; }
+}
+
 @media screen and (max-width:640px) {
     #name-left-sm { font-size: 2.8em }
     #name-right-sm { font-size: 2.8em }
@@ -119,6 +169,11 @@ CSS Queries
     .title-top-sm { margin-top: 160px; }
     .title-bottom-sm { margin-top: 160px; }
     #musician-small { background-position-y: -20px; }
+}
+
+@media screen and (max-width:617px) {
+    p.text-intro { font-size: 20px; }
+    /* p.text-intro-smaller { font-size: 16px; } */
 }
 
 @media screen and (max-width:610px) {
@@ -163,6 +218,14 @@ CSS Queries
     #youtube-container { height: 350px; }
 }
 
+@media screen and (max-width:568px) {
+    p.text-intro { font-size: 19px; }
+}
+
+@media screen and (max-width:542px) {
+    p.text-intro { font-size: 18px; }
+}
+
 @media screen and (max-width:520px) {
     .title-name-sm { display: none; }
     .title-top-sm { display: none; }
@@ -177,6 +240,11 @@ CSS Queries
     #subtitle-bottom-right-xs { font-size: 1.8em; }
     #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
+    p.text-intro { font-size: 17px; }
+}
+
+@media screen and (max-width:494px) {
+    p.text-intro { font-size: 16px; }
 }
 
 @media screen and (max-width:480px) {
@@ -191,6 +259,23 @@ CSS Queries
     #subtitle-bottom-left-xs { font-size: 1.5em; }
     #subtitle-bottom-right-xs { font-size: 1.5em; }
     #youtube-container { height: 300px; }
+}
+
+@media screen and (max-width:470px) {
+    p.text-intro { font-size: 24px; }
+    p.text-intro-smaller { font-size: 14px; }
+}
+
+@media screen and (max-width:465px) {
+    p.text-intro { font-size: 23px; }
+}
+
+@media screen and (max-width:448px) {
+    p.text-intro { font-size: 22px; }
+}
+
+@media screen and (max-width:433px) {
+    p.text-intro { font-size: 21px; }
 }
 
 @media screen and (max-width:425px) {
@@ -217,6 +302,18 @@ CSS Queries
     #youtube-container { height: 250px; }
 }
 
+@media screen and (max-width:416px) {
+    p.text-intro { font-size: 20px; }
+}
+
+@media screen and (max-width:400px) {
+    p.text-intro { font-size: 19px; }
+}
+
+@media screen and (max-width:384px) {
+    p.text-intro { font-size: 18px; }
+}
+
 @media screen and (max-width:375px) {
     .hero { background-size: 350px; }
     #title-name-middle-xs { margin-top: 60px; }
@@ -225,6 +322,10 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.2em; }
     #subtitle-bottom-left-xs { font-size: 1.1em; }
     #subtitle-bottom-right-xs { font-size: 1.1em; }
+}
+
+@media screen and (max-width:368px) {
+    p.text-intro { font-size: 17px; }
 }
 
 @media screen and (max-width:360px) {
@@ -245,10 +346,15 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.1em; }
     #subtitle-bottom-left-xs { font-size: 1em; }
     #subtitle-bottom-right-xs { font-size: 1em; }
+    p.text-intro { font-size: 16px; }
 }
 
 @media screen and (max-width:340px) {
     #youtube-container { height: 200px; }
+}
+
+@media screen and (max-width:335px) {
+    p.text-intro { font-size: 15px; }
 }
 
 @media screen and (max-width:330px) {
