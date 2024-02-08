@@ -342,4 +342,8 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 .center { text-align: center; }
 .clickable-img { cursor: pointer; }
 .link-no-underline:hover, .expand:hover { text-decoration: none; }
+.link-no-underline:active, .expand:active { color: #64c29e; text-decoration: none; }
+.link-no-underline:focus, .expand:focus { color: #64c29e; text-decoration: none; }
 .portfolio-bottom-img { display: block; margin-top: 60px; margin-bottom: 52px; margin-left: auto; margin-right: auto; width: 100%; height: auto; }
+.intro-link:active, .portfolio-link:active { color: #64c29e; }
+.intro-link:focus, .portfolio-link:focus { color: #64c29e; }
