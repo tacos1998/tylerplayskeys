@@ -1,0 +1,43 @@
+// set up text to print, each item in array is new line
+var aText = new Array(
+    "Software", 
+    "Engineer,"
+    );
+    var iSpeed = 80; // time delay of print out
+    var iIndex = 0; // start printing array at this position
+    var iArrLength = aText[0].length; // the length of the text array
+    var iScrollAt = 20; // start scrolling up at this many lines
+     
+    var iTextPos = 0; // initialise text position
+    var sContents = ''; // initialise contents variable
+    var iRow; // initialise current row
+     
+    function typewriter()
+    {
+     sContents =  ' ';
+     iRow = Math.max(0, iIndex-iScrollAt);
+     var destination = document.getElementById("title-left-lg");
+     
+     while ( iRow < iIndex ) {
+      sContents += aText[iRow++] + '<br />';
+     }
+     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+     if ( iTextPos++ == iArrLength ) {
+      iTextPos = 0;
+      iIndex++;
+      if ( iIndex != aText.length ) {
+       iArrLength = aText[iIndex].length;
+       setTimeout("typewriter()", 100);
+      } else {
+        removeLast();
+      }
+     } else {
+      setTimeout("typewriter()", iSpeed);
+     }
+    }
+    function removeLast() {
+      var destination = document.getElementById("title-left-lg");
+      destination.innerHTML = destination.innerHTML.slice(0, -1);
+    }
+    
+    typewriter();
