@@ -193,7 +193,7 @@ User Styles
 .clearfix { *zoom: 1;padding-left: 0px; }
 .pullcontainer a#pull { display: none; }
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
-a:hover { color: #64c29e; text-decoration: none; }
+a:hover { color: #64c29e; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 32px; text-align: left; color: white; }
 p.text-intro-smaller { font-size: 18px; text-align: left; color: white; }
@@ -317,7 +317,7 @@ footer p { font-size: 13px; margin: 0; }
 #subtitle-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
 #subtitle-bottom-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 1em; }
 #subtitle-bottom-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
-#intro { color: white; text-decoration: underline; }
+.intro-link { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
 .youtube-video { aspect-ratio: 16 / 9; width: 100%; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
@@ -331,11 +331,13 @@ footer p { font-size: 13px; margin: 0; }
 #default-nav { display: table; margin: 0 auto; }
 #mobile-name-portfolio { text-align: center; margin-bottom: 0px; margin-top: 0px; display: block; cursor: pointer; }
 #about-portfolio { background: #fbfbfb; }
-p.text-intro-portfolio { font-size: 32px; text-align: left; color: #848789; }
-p.text-intro-smaller-portfolio { font-size: 18px; text-align: left; color: #848789; }
+p.text-intro-portfolio { font-size: 22px; text-align: justify; color: #848789; }
+p.text-intro-smaller-portfolio { font-size: 18px; text-align: justify; color: #848789; }
 .portfolio-link { color: #848789; text-decoration: underline; }
 .dev-font {  font-family: 'Courier New', Courier, monospace; }
 .music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#rhythms-header { font-size: 6em; text-align: center; }
-#rhythms-subtitle { font-size: 1.5em; text-align: center; }
+#rhythms-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
+#rhythms-subtitle { font-size: 1.5em; text-align: center; font-weight: 100; letter-spacing: 2px; margin-top: 25px; margin-bottom: 35px; }
 .portfolio-video { aspect-ratio: 16 / 9; width: 100%; }
+.center { text-align: center; }
+.clickable-img { cursor: pointer; }

@@ -46,6 +46,12 @@ $(document).ready(function() {
       if ($(this).closest(".img").hasClass("hover")) {
         $(this).closest(".img").removeClass("hover");
       }
+      // this shouldn't be needed if everything is a link
+      // if ($(this).closest(".img").hasClass("hover")) {
+      //   $(this).closest(".img").removeClass("hover");
+      // } else if ($(this).hasClass("hover")) {
+      //   $(this).removeClass("hover")
+      // }
     });
   } else {
     // handle the mouseenter functionality
