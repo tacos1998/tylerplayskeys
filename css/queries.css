@@ -311,6 +311,10 @@ CSS Queries
     #subtitle-bottom-right-xs { font-size: 1.3em; }
 }
 
+@media screen and (max-width:424px) {
+    #rhythms-header { font-size: 5.2em; }
+}
+
 @media screen and (max-width:420px) {
     #youtube-container { height: 250px; }
 }
@@ -335,10 +339,13 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.2em; }
     #subtitle-bottom-left-xs { font-size: 1.1em; }
     #subtitle-bottom-right-xs { font-size: 1.1em; }
+    #rhythms-header { font-size: 4.1em; }
 }
 
 @media screen and (max-width:368px) {
     p.text-intro { font-size: 17px; }
+    #name-left-xs-portfolio { font-size: 0.75em; }
+    #name-right-xs-portfolio { font-size: 0.7em; }
 }
 
 @media screen and (max-width:360px) {

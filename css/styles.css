@@ -246,6 +246,7 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 a.close-overlay.hidden { display: none }
 #effect .overlay { position: absolute; display: block; top: 0; bottom: 0; left: 0; right: 0; background: rgba(100, 194, 158, 0.8); opacity: 0; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 #effect .overlay a.expand { position: absolute; left: 0; right: 0; top: 0; content: ""; margin: 0 auto; border-radius: 30px; text-align: center; color: #fff; line-height: 50px; font-weight: 600; font-size: 14px; opacity: 0; text-transform: uppercase; letter-spacing: 3px; padding-top: 8px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; display: block; }
+.bg-img { cursor: pointer; }
 .bg-img .overlay { position: absolute; display: block; top: 0; bottom: 0; left: 0; right: 0; background: rgba(100, 194, 158, 0.8); opacity: 0; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 .bg-img .overlay a.expand { position: absolute; left: 0; right: 0; top: 0; content: ""; margin: 0 auto; border-radius: 30px; text-align: center; color: #fff; line-height: 50px; font-weight: 600; font-size: 14px; opacity: 0; text-transform: uppercase; letter-spacing: 3px; padding-top: 8px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; display: block; }
 #effect .img { overflow: hidden }
@@ -301,12 +302,14 @@ footer p { font-size: 13px; margin: 0; }
 .title-name-sm { display: none; }
 .title-name-xs { display: none; }
 #name-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
-#name-right-lg { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
+#name-right-lg { text-align: right; font-weight: bold; margin-left: 30px; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
 #name-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.8em; }
 #name-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.8em; }
 #name-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
 #name-right-sm { text-align: right; font-weight: bold; margin-left: 30px; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5em; }
 #name-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.8em; }
+#name-left-xs-portfolio { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.9em; }
+#name-right-xs-portfolio { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
 #name-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
 #name-left-mobile { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.1em; }
 #name-right-mobile { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; }
@@ -326,3 +329,13 @@ footer p { font-size: 13px; margin: 0; }
 #mobile-name-left { text-align: center; }
 #mobile-name-right { text-align: center; }
 #default-nav { display: table; margin: 0 auto; }
+#mobile-name-portfolio { text-align: center; margin-bottom: 0px; margin-top: 0px; display: block; cursor: pointer; }
+#about-portfolio { background: #fbfbfb; }
+p.text-intro-portfolio { font-size: 32px; text-align: left; color: #848789; }
+p.text-intro-smaller-portfolio { font-size: 18px; text-align: left; color: #848789; }
+.portfolio-link { color: #848789; text-decoration: underline; }
+.dev-font {  font-family: 'Courier New', Courier, monospace; }
+.music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#rhythms-header { font-size: 6em; text-align: center; }
+#rhythms-subtitle { font-size: 1.5em; text-align: center; }
+.portfolio-video { aspect-ratio: 16 / 9; width: 100%; }
