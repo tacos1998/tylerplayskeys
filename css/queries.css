@@ -313,6 +313,7 @@ CSS Queries
 
 @media screen and (max-width:424px) {
     #rhythms-header { font-size: 5.2em; }
+    #censr-subtitle { font-size: 1.4em; }
 }
 
 @media screen and (max-width:420px) {
@@ -329,6 +330,10 @@ CSS Queries
 
 @media screen and (max-width:384px) {
     p.text-intro { font-size: 18px; }
+}
+
+@media screen and (max-width:378px) {
+    #censr-subtitle { font-size: 1.17em; }
 }
 
 @media screen and (max-width:375px) {
