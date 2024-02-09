@@ -7,8 +7,16 @@ CSS Queries
     .section-1 { background: url(../img/Cerner-clipped.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
 
+@media screen and (max-width:1460px) {
+    .section-4 { background: url(../img/singing.jpg) no-repeat -200px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+}
+
 @media screen and (max-width:1277px) {
     p.text-intro { font-size: 30px; }
+}
+
+@media screen and (max-width:1258px) {
+    .section-4 { background: url(../img/singing.jpg) no-repeat -250px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:1205px) {
@@ -18,10 +26,12 @@ CSS Queries
 @media screen and (max-width:1130px) {
     p.text-intro { font-size: 26px; }
     p.text-intro-smaller { font-size: 16px; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -270px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:1057px) {
     p.text-intro { font-size: 25px; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -285px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:1020px) {
@@ -51,6 +61,7 @@ CSS Queries
     p.text-intro { font-size: 36px; }
     p.text-intro-smaller { font-size: 18px; }
     .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat center 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:959px) {
@@ -147,6 +158,10 @@ CSS Queries
     p.text-intro { font-size: 24px; }
 }
 
+@media screen and (max-width:690px) {
+    .section-4 { background: url(../img/singing.jpg) no-repeat -65px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+}
+
 @media screen and (max-width:670px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
@@ -176,6 +191,10 @@ CSS Queries
     .title-bottom-sm { margin-top: 160px; }
     #musician-small { background-position-y: -20px; }
     p.text-intro { font-size: 22px; }
+}
+
+@media screen and (max-width:625px) {
+    .section-4 { background: url(../img/singing.jpg) no-repeat -120px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:617px) {
@@ -228,6 +247,7 @@ CSS Queries
     #subtitle-bottom-right-xs { font-size: 2em; }
     #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -170px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:568px) {
@@ -236,6 +256,10 @@ CSS Queries
 
 @media screen and (max-width:542px) {
     p.text-intro { font-size: 18px; }
+}
+
+@media screen and (max-width:530px) {
+    .section-4 { background: url(../img/singing.jpg) no-repeat -190px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:520px) {
@@ -279,6 +303,7 @@ CSS Queries
     p.text-intro { font-size: 24px; }
     p.text-intro-smaller { font-size: 14px; }
     .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat -300px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -230px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:465px) {
@@ -332,6 +357,7 @@ CSS Queries
 
 @media screen and (max-width:384px) {
     p.text-intro { font-size: 18px; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -260px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:378px) {
@@ -363,6 +389,7 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.2em; }
     #subtitle-bottom-left-xs { font-size: 1em; }
     #subtitle-bottom-right-xs { font-size: 1em; }
+    .section-4 { background: url(../img/singing.jpg) no-repeat -300px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:350px) {
