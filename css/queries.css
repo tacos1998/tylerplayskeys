@@ -50,6 +50,7 @@ CSS Queries
     .title-bottom-md { display: block; }
     p.text-intro { font-size: 36px; }
     p.text-intro-smaller { font-size: 18px; }
+    .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
 
 @media screen and (max-width:959px) {
@@ -277,6 +278,7 @@ CSS Queries
 @media screen and (max-width:470px) {
     p.text-intro { font-size: 24px; }
     p.text-intro-smaller { font-size: 14px; }
+    .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat -300px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
 
 @media screen and (max-width:465px) {
