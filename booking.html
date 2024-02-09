@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Freelance Musician | Tyler Acosta</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css?v=1.2" rel="stylesheet">
+		<link href="css/queries.css?v=1.2" rel="stylesheet">
+		<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/cc5fb92ea7.js" crossorigin="anonymous"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="pullcontainer">
+						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<nav>
+							<!-- <div class="logo-holder"></div> -->
+							<ul class="clearfix" id="default-nav">
+								<li><a href="index.html#portfolio" class="link-no-underline">Portfolio</a></li>
+								<li class="dot">.</li>
+								<!-- <li><a href="#work" class="r_spacer">Coding</a></li> -->
+								<!-- <li><a href="#work">Programming</a></li>
+								<li class="dot">.</li>
+								<li><a href="#shop">Music</a></li>
+								<li class="dot">.</li> -->
+								<li><a href="#contact" class="link-no-underline">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<h1 class="title-text" id="mobile-name-portfolio" onclick="window.location='index.html'">
+				<span id="name-left-xs-portfolio">
+					Tyler
+				</span>
+				<span id="name-right-xs-portfolio">
+					Acosta.
+				</span>
+			</h1>
+		</header>
+		<div class="container-fluid intro" id="about-portfolio">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1 class="music-font" id="rhythms-header">Rhythms of Life</h1>
+					<h1 id="rhythms-subtitle">Oracle Cerner Innovations Campus - Kansas City, MO</h1>
+					<iframe class="portfolio-video" src="https://www.youtube.com/embed/DQnyhYQpgks?si=M-ZE-yw-pGVt94hl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<!-- <h2 class="dev-font" id="rhythms-subtitle">Oracle Cerner, Innovations Campus - Kansas City, MO</h2> -->
+					<p class="text-intro-portfolio">Rhythms of Life is a procedural audio generator that uses <a class="portfolio-link" href="https://tonejs.github.io/" target="_blank">Tone.js</a> to represent key signatures, chords, and drum patterns as binary arrays, then transforms them into songs based on data streams of company success metrics.</p>
+					<p class="text-intro-smaller-portfolio">It was the summer of 2018. I had started at Cerner as a Software Engineering Intern on the Model Experience team, working alongside 5 teammates to develop and maintain a suite of 5 Ruby on Rails web applications that deliver best practice guidelines for domains and software to clinicians.</p>
+					<p class="text-intro-smaller-portfolio">It was an exciting surprise to hear that <a class="portfolio-link" href="https://www.youtube.com/watch?v=ecjvI-CbR60" target="_blank">Sam Aaron, creator of Sonic Pi, was giving the keynote presentation</a> and a live coding performance at Cerner’s developer conference that summer. I admire the fun and creative approach Sam is taking to bringing programming to a wider audience, and <a class="portfolio-link" href="1000_days_a_week.html">I’ve had a blast playing around with Sonic Pi.</a> I stuck around afterwards to ask him some questions, and a member of the Cerner Labs team overheard that I had a background in music. He pulled me aside to tell me about an idea his team was working on for the Media Wall.</p>
+					<p class="text-intro-smaller-portfolio">The Systems of Life Media Wall is the centerpiece in the lobby of Cerner's Innovations Campus. It’s one of the first things employees, clients, and visitors to the campus see and associate with the company. The Cerner Labs team creates animated visualizations for data about the company and its products, with dynamic and eye-catching representations of everything from “how many lives have been saved today by our software” to “how many people made a healthy choice in the cafeteria today.” The team’s latest venture was to implement a soundtrack for the wall. They found some free-use ambient electronic music and had set it to play on loop, but they noticed that it felt generic and got old quickly. This led them to a new idea: why not take the data that they were using to create the visualizations and use it to create the soundtrack? There was only one problem: none of the team members had the music theory background needed to turn data into songs.</p>
+					<p class="text-intro-smaller-portfolio">That’s where I came in. I was managing my workload well enough that my supervisor allowed me to spend Fridays at the other campus working on the soundtrack generator with the Cerner Labs team. I had a lot of fun using data structures to model chords as sets of notes, key signatures as sets of chords, and beats as 2D arrays of drum patterns for different percussion sounds. The incoming data streams would update each parameter to seamlessly transition into a new song every minute. We configured it so that some values would affect the note or beat patterns, while others would affect the sounds themselves, by picking different drum sounds or adjusting the filter frequency on a synth. Considering every combination of all possible data values and all modifiable parameters, the program is capable of generating <strong>over 154 septillion unique 1-minute songs.</strong></p>
+					<p class="text-intro-smaller-portfolio">On the very last day of my internship, the whole team and I went down to the lobby to deploy our soundtrack generator, dubbing it “Rhythms of Life”. It was exciting to have gotten it working on our laptops; hearing the songs coming from the giant screen in the heart of the building was another thing entirely. It was one of the most exhilarating moments I’ve experienced as a software engineer, and I’m grateful to Cerner and the Cerner Labs team for giving me a chance to combine my music and programming skills to create and deploy something truly unique.</p>
+					<img src="img/Cerner.jpg" alt="Cerner" class="portfolio-bottom-img">
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 section-3 effects bg-img">
+					<!-- <div class="logo-3 wp3"></div> -->
+					<div class="overlay">
+						<a href="#" class="expand">custom seats</a>
+						<a class="close-overlay hidden">x</a>
+					</div>
+				</div>
+				<div class="col-md-4 section-text nopadding" id="portfolio">
+					<div class="wp6">
+						<h2 class="frame"><i class="fa-solid fa-briefcase" id="code-icon"></i></br>Portfolio</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
+					</div>
+					<div class="small-featured-img frame-red effects bg-img">
+						<div class="overlay">
+							<a href="#" class="expand">custom seats</a>
+							<a class="close-overlay hidden">x</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 section-4 effects bg-img">
+					<div class="overlay">
+						<a href="#" class="expand">custom seats</a>
+						<a class="close-overlay hidden">x</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="shop">
+			<div class="row">
+				<div id="effect" class="effects clearfix">
+					<div class="col-md-4 left nopadding">
+						<div class="left-box-1">
+							<div class="img clickable-img" onclick="window.location='index.html'">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a class="expand">leather seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="left-box-btm box">
+							<div class="img">
+								<img src="img/l3.jpg" alt="Limited Edition">
+								<div class="overlay">
+									<a href="#" class="expand">limited edition</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mid nopadding">
+						<div class="mid-box-1 box">
+							<div class="img">
+								<img src="img/l4.jpg" alt="Shop Bags">
+								<div class="overlay">
+									<a href="#" class="expand">shop bags</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="mid-box-2 box">
+							<div class="img">
+								<img src="img/l5.jpg" alt="Shop Bikes">
+								<div class="overlay">
+									<a href="#" class="expand">shop bikes</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 right nopadding">
+						<div class="right-box-1 box">
+							<div class="img">
+								<img src="img/l6.jpg" alt="Shop Now">
+								<div class="overlay">
+									<a href="#" class="expand">shop now</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="right-box-2 box">
+							<div class="img">
+								<img src="img/l7.jpg" alt="Shop Seats">
+								<div class="overlay">
+									<a href="#" class="expand">shop seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="right-box-3 box">
+							<div class="img">
+								<img src="img/l8.jpg" alt="Shop Accessories">
+								<div class="overlay">
+									<a href="#" class="expand">shop accessories</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="flex-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<div class="flex-twitter-icon"></div>
+									<h2 class="twitter-post-username">
+									<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+									</h2>
+									<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+								</li>
+								<li>
+									<div class="flex-twitter-icon"></div>
+									<h2 class="twitter-post-username">
+									<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+									</h2>
+									<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. </p>
+								</li>
+								<li>
+									<div class="flex-twitter-icon"></div>
+									<h2 class="twitter-post-username">
+									<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+									</h2>
+									<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="discover">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<a href="#" class="shop-btn">Discover The Shop</a>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<section class="sign_up">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 sign-up">
+						<h2 class="logo-header">Stay on the saddle!</h2>
+						<form name="signup-form">
+							<input class="signup-input" type="email" name="email_address" value="" placeholder="enter your email..." title="Please enter a valid email address." required>
+							<button type="submit" class="submit-btn">GO</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 footer-leftcol">
+						<p><span class="bold-16p">AOD New York</span><br>
+						2250 Lexington Avenue<br>
+						New York, NY 10035 - <a href="#">info@domain.com</a>
+						</p>
+					</div>
+					<div class="col-md-4 footer-midcol">
+						<ul>
+							<li><a href="#" class="twitter-icon">Twitter</a></li>
+							<li><a href="#" class="facebook-icon">Facebook</a></li>
+							<li><a href="#" class="pintrest-icon">Pintrest</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 footer-rightcol">
+						<p>Designed by <a href="#"><img src="img/yebo-icon.png" alt="Yebo Logo"></a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/waypoints.min.js"></script>
+	</body>
+</html>
