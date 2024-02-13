@@ -217,7 +217,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/tigerhacks.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #musician-small { background: url(../img/wine-bar.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.frame-red { background: url(../img/chrome-wheels.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.frame-red { background: url(../img/band-whole-compressed.jpg) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 113px; height: 118px; background: url(../img/bicycle-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
@@ -353,3 +353,5 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 .stars { color: #ffc700; }
 .review-title { color: #282f35; font-weight: bold; }
 #portfolio-blurb-link { text-decoration: underline; }
+.instagram-media { margin: 0 auto!important; }
+.portfolio-ul { font-size: 16px; text-align: left; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
