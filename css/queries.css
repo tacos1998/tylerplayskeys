@@ -17,6 +17,7 @@ CSS Queries
 
 @media screen and (max-width:1258px) {
     .section-4 { background: url(../img/singing.jpg) no-repeat -250px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    #days-header { font-size: 4.5em; }
 }
 
 @media screen and (max-width:1205px) {
@@ -27,6 +28,7 @@ CSS Queries
     p.text-intro { font-size: 26px; }
     p.text-intro-smaller { font-size: 16px; }
     .section-4 { background: url(../img/singing.jpg) no-repeat -270px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    #days-header { font-size: 4em; }
 }
 
 @media screen and (max-width:1057px) {
@@ -174,6 +176,7 @@ CSS Queries
     #title-right-bottom-sm { font-size: 1.6em }
     .title-top-sm { margin-top: 150px; }
     .title-bottom-sm { margin-top: 150px; }
+    #days-header { font-size: 3.5em; }
 }
 
 @media screen and (max-width:666px) {
@@ -216,6 +219,7 @@ CSS Queries
 
 @media screen and (max-width:592px) {
     p.text-intro { font-size: 20px; }
+    #days-header { font-size: 3em; }
     /* p.text-intro-smaller { font-size: 16px; } */
 }
 
@@ -260,6 +264,7 @@ CSS Queries
 
 @media screen and (max-width:530px) {
     .section-4 { background: url(../img/singing.jpg) no-repeat -190px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    #days-header { font-size: 2.8em; }
 }
 
 @media screen and (max-width:520px) {
@@ -281,6 +286,7 @@ CSS Queries
 
 @media screen and (max-width:494px) {
     p.text-intro { font-size: 16px; }
+    #days-header { font-size: 2.5em; }
 }
 
 @media screen and (max-width:480px) {
@@ -312,6 +318,10 @@ CSS Queries
 
 @media screen and (max-width:448px) {
     p.text-intro { font-size: 22px; }
+}
+
+@media screen and (max-width:439px) {
+    #days-header { font-size: 2.2em; }
 }
 
 @media screen and (max-width:433px) {
@@ -353,6 +363,7 @@ CSS Queries
 
 @media screen and (max-width:400px) {
     p.text-intro { font-size: 19px; }
+    #days-header { font-size: 2em; }
 }
 
 @media screen and (max-width:384px) {
@@ -379,6 +390,7 @@ CSS Queries
     p.text-intro { font-size: 17px; }
     #name-left-xs-portfolio { font-size: 0.75em; }
     #name-right-xs-portfolio { font-size: 0.7em; }
+    #days-header { font-size: 1.8em; }
 }
 
 @media screen and (max-width:360px) {
@@ -421,6 +433,7 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.1em; }
     #subtitle-bottom-left-xs { font-size: 1em; }
     #subtitle-bottom-right-xs { font-size: 1em; }
+    #days-header { font-size: 1.6em; }
 }
 
 @media screen and (max-width:1200px) {
