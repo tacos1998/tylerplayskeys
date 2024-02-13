@@ -334,6 +334,7 @@ footer p { font-size: 13px; margin: 0; }
 p.text-intro-portfolio { font-size: 22px; text-align: justify; color: #848789; }
 p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #848789; }
 .portfolio-link { color: #848789; text-decoration: underline; }
+.portfolio-subtitle-link { text-decoration: underline; }
 .dev-font {  font-family: 'Courier New', Courier, monospace; }
 .music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 #rhythms-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
@@ -346,6 +347,7 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 .link-no-underline:hover, .expand:hover { text-decoration: none; }
 .link-no-underline:active, .expand:active { color: #64c29e; text-decoration: none; }
 .link-no-underline:focus, .expand:focus { color: #64c29e; text-decoration: none; }
+.portfolio-img { display: block; margin-top: 30px; margin-bottom: 30px; margin-left: auto; margin-right: auto; width: 100%; height: auto; }
 .portfolio-bottom-img { display: block; margin-top: 60px; margin-bottom: 52px; margin-left: auto; margin-right: auto; width: 100%; height: auto; }
 .intro-link:active, .portfolio-link:active { color: #64c29e; }
 .intro-link:focus, .portfolio-link:focus { color: #64c29e; }
