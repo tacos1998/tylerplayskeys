@@ -8,7 +8,7 @@ CSS Queries
 }
 
 @media screen and (max-width:1460px) {
-    .section-4 { background: url(../img/singing.jpg) no-repeat -200px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -200px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:1277px) {
@@ -16,8 +16,8 @@ CSS Queries
 }
 
 @media screen and (max-width:1258px) {
-    .section-4 { background: url(../img/singing.jpg) no-repeat -250px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
-    #days-header { font-size: 4.5em; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -250px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    #days-header { font-size: 4.5em; } */
 }
 
 @media screen and (max-width:1205px) {
@@ -27,13 +27,13 @@ CSS Queries
 @media screen and (max-width:1130px) {
     p.text-intro { font-size: 26px; }
     p.text-intro-smaller { font-size: 16px; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -270px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
-    #days-header { font-size: 4em; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -270px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    #days-header { font-size: 4em; } */
 }
 
 @media screen and (max-width:1057px) {
     p.text-intro { font-size: 25px; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -285px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -285px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:1020px) {
@@ -63,7 +63,7 @@ CSS Queries
     p.text-intro { font-size: 36px; }
     p.text-intro-smaller { font-size: 18px; }
     .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat center 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    .section-4 { background: url(../img/piano-bw.jpeg) no-repeat center bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:959px) {
@@ -102,6 +102,7 @@ CSS Queries
 
 @media screen and (max-width:812px) {
     p.text-intro { font-size: 28px; }
+    .section-4 { background: url(../img/piano-bw.jpeg) no-repeat left bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 120%; height: 600px; }
 }
 
 @media screen and (max-width:768px) {
@@ -145,6 +146,7 @@ CSS Queries
     #title-right-bottom-sm { font-size: 2em }
     .title-top-sm { margin-top: 130px; }
     .title-bottom-sm { margin-top: 130px; }
+    .section-4 { background: url(../img/piano-bw.jpeg) no-repeat left bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 140%; height: 600px; }
 }
 
 @media screen and (max-width:690px) {
@@ -161,7 +163,7 @@ CSS Queries
 }
 
 @media screen and (max-width:690px) {
-    .section-4 { background: url(../img/singing.jpg) no-repeat -65px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -65px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:670px) {
@@ -197,7 +199,7 @@ CSS Queries
 }
 
 @media screen and (max-width:625px) {
-    .section-4 { background: url(../img/singing.jpg) no-repeat -120px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -120px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:617px) {
@@ -215,6 +217,7 @@ CSS Queries
     .title-top-sm { margin-top: 170px; }
     .title-bottom-sm { margin-top: 170px; }
     #musician-small { background-position-y: -10px; }
+    .section-4 { background: url(../img/piano-bw.jpeg) no-repeat left bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 160%; height: 600px; }
 }
 
 @media screen and (max-width:592px) {
@@ -251,7 +254,7 @@ CSS Queries
     #subtitle-bottom-right-xs { font-size: 2em; }
     #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -170px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -170px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:568px) {
@@ -263,7 +266,7 @@ CSS Queries
 }
 
 @media screen and (max-width:530px) {
-    .section-4 { background: url(../img/singing.jpg) no-repeat -190px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -190px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
     #days-header { font-size: 2.8em; }
 }
 
@@ -282,6 +285,11 @@ CSS Queries
     #musician-small { background-position-y: 0px; }
     #youtube-container { height: 350px; }
     p.text-intro { font-size: 17px; }
+}
+
+
+@media screen and (max-width:500px) {
+    .section-4 { background: url(../img/piano-bw.jpeg) no-repeat left bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (max-width:494px) {
@@ -309,7 +317,7 @@ CSS Queries
     p.text-intro { font-size: 24px; }
     p.text-intro-smaller { font-size: 14px; }
     .section-3 { background: url(../img/Cerner-alt.JPG) no-repeat -300px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -230px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -230px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:465px) {
@@ -368,7 +376,7 @@ CSS Queries
 
 @media screen and (max-width:384px) {
     p.text-intro { font-size: 18px; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -260px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -260px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:378px) {
@@ -401,7 +409,7 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.2em; }
     #subtitle-bottom-left-xs { font-size: 1em; }
     #subtitle-bottom-right-xs { font-size: 1em; }
-    .section-4 { background: url(../img/singing.jpg) no-repeat -300px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+    /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -300px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
 @media screen and (max-width:350px) {
