@@ -320,7 +320,7 @@ footer p { font-size: 13px; margin: 0; }
 .intro-link { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
-.youtube-video { aspect-ratio: 16 / 9; width: 100%; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.youtube-video { aspect-ratio: 16 / 9; width: 100%; margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); height: 100%; }
 #subtitle-upper-left { text-align: left; }
 #subtitle-upper-right { text-align: right; }
 #subtitle-lower-left { text-align: left; }
