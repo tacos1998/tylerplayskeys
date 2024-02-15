@@ -359,4 +359,5 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 .instagram-media { margin: 0 auto!important; }
 .portfolio-ul { font-size: 16px; text-align: left; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 #prc-mobile { max-height: 460px; width: auto; }
-#arcade-img { height: 400px; width: auto; }
+#arcade-img { height: 400px; width: auto; margin-top: 40px; }
+#fathom-img { margin-top: 30px; }
