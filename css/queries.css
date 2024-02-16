@@ -2,6 +2,94 @@
 CSS Queries
 ========================================================================== */
 
+/* min-width */
+
+@media screen and (min-width:1200px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
+}
+
+@media screen and (min-width:1250px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
+}
+
+@media screen and (min-width:1278px) {
+    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
+@media screen and (min-width:1330px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -400px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
+}
+
+@media screen and (min-width:1400px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+}
+
+@media screen and (min-width:1500px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+}
+
+@media screen and (min-width:1540px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -390px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+}
+
+@media screen and (min-width:1650px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -430px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+}
+
+@media screen and (min-width:1780px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -460px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+}
+
+@media screen and (min-width:1880px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:1970px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -390px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2070px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -420px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2200px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -440px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2240px) {
+    .section-3 { background: url(../img/Cerner-alt.webp) no-repeat -210px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+}
+
+@media screen and (min-width:2280px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -470px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2390px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -500px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2450px) {
+    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center -13px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
+@media screen and (min-width:2480px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -525px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2540px) {
+    .section-3 { background: url(../img/Cerner-alt.webp) no-repeat -200px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+}
+
+@media screen and (min-width:2550px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -530px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2561px) {
+    .section-3 { background: url(../img/Cerner-alt.webp) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+}
+
+/* max-width */
+
 @media screen and (max-width:640px) {
     .shop-btn { padding: 15px 25px; font-size: 10px; }
     .section-1 { background: url(../img/Cerner-clipped.webp) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
