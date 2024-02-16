@@ -24,6 +24,10 @@ CSS Queries
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
 }
 
+@media screen and (min-width:1440px) {
+    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -20px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
 @media screen and (min-width:1500px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
 }
@@ -36,6 +40,10 @@ CSS Queries
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -430px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
 }
 
+@media screen and (min-width:1680px) {
+    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -26px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
 @media screen and (min-width:1780px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -460px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
 }
@@ -46,6 +54,10 @@ CSS Queries
 
 @media screen and (min-width:1970px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -390px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:1990px) {
+    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -30px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:2070px) {
@@ -62,6 +74,10 @@ CSS Queries
 
 @media screen and (min-width:2280px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -470px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2300px) {
+    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -35px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:2390px) {
