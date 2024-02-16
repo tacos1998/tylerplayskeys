@@ -48,6 +48,10 @@ CSS Queries
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -460px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
 }
 
+@media screen and (min-width:1850px) {
+    .section-4 { background: url(../img/piano-bw.webp) no-repeat center -140px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+}
+
 @media screen and (min-width:1880px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
 }
@@ -58,6 +62,10 @@ CSS Queries
 
 @media screen and (min-width:1990px) {
     .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -30px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
+@media screen and (min-width:2030px) {
+    .section-4 { background: url(../img/piano-bw.webp) no-repeat center -150px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (min-width:2070px) {
@@ -80,16 +88,25 @@ CSS Queries
     .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -35px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
+@media screen and (min-width:2320px) {
+    .section-4 { background: url(../img/piano-bw.webp) no-repeat center -170px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+}
+
 @media screen and (min-width:2390px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -500px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
 }
 
 @media screen and (min-width:2450px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center -13px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .section-4 { background: url(../img/piano-bw.webp) no-repeat center -180px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (min-width:2480px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -525px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 200%; }
+}
+
+@media screen and (min-width:2500px) {
+    .section-4 { background: url(../img/piano-bw.webp) no-repeat center -186px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
 @media screen and (min-width:2540px) {
