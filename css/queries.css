@@ -4,28 +4,33 @@ CSS Queries
 
 /* min-width */
 
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
 }
 
 @media screen and (min-width:1250px) {
     #musician-small { background: url(../img/wine-bar.webp) no-repeat center -360px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
-}
+} */
 
 @media screen and (min-width:1278px) {
     .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
-@media screen and (min-width:1330px) {
-    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -400px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
-}
+/* @media screen and (min-width:1330px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 300%; }
+} */
 
-@media screen and (min-width:1400px) {
-    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; }
+@media screen and (min-width:1360px) {
+    /* #musician-small { background: url(../img/wine-bar.webp) no-repeat center -330px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 250%; } */
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -10px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:1440px) {
     .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -20px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
+@media screen and (min-width:1450px) {
+    #musician-small { background: url(../img/wine-bar.webp) no-repeat center -16px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:1500px) {
