@@ -48,17 +48,6 @@ $(document).ready(function() {
       } else if($(this).closest(".bg-img").hasClass("hover")) {
         $(this).closest(".bg-img").removeClass("hover");
       }
-
-    // } else if($(this).parent().parent().hasClass("hover")) {
-    //   $(this).parent().parent().removeClass("hover");
-    // }
-
-      // this shouldn't be needed if everything is a link
-      // if ($(this).closest(".img").hasClass("hover")) {
-      //   $(this).closest(".img").removeClass("hover");
-      // } else if ($(this).hasClass("hover")) {
-      //   $(this).removeClass("hover")
-      // }
     });
   } else {
     // handle the mouseenter functionality
