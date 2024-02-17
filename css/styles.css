@@ -404,6 +404,6 @@ h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; let
 #status { font-size: 18px; text-align: center; color: white; }
 
 #resume-btn { color: white; background-color: transparent; border-color: white; font-weight: bold; }
-#resume-btn:hover, #resume-btn:active { color: black; background-color: white; border-color: white; transition: 0.5s; }
+#resume-btn:hover, #resume-btn:active { color: black; background-color: white; border-color: white; transition: 0.5s; outline: none; }
 
 #linkedin-icon:hover, #linkedin-icon:active, #github-icon:hover, #github-icon:active { color: black; transition: 0.5s; }
