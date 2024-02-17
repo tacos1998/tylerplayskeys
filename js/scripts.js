@@ -90,13 +90,13 @@ $(function() {
   });
 
   $('.wp2').waypoint(function() {
-    $('.wp2').addClass('animated bounceInRight');
+    $('.wp2').addClass('animated fadeInUp');
   }, {
     offset: '85%'
   });
 
   $('.wp3').waypoint(function() {
-    $('.wp3').addClass('animated bounceInLeft');
+    $('.wp3').addClass('animated fadeInUp');
   }, {
     offset: '85%'
   });
