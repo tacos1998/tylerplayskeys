@@ -391,3 +391,9 @@ a, a:active, a:focus { outline: none; }
 .ee-main { font-size: 18px; }
 
 h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 40px; }
+
+.delay-1 { animation-delay: 800ms; }
+.delay-2 { animation-delay: 1800ms; }
+.delay-3 { animation-delay: 2600ms; }
+.delay-4 { animation-delay: 3600ms; }
+.delay-5 { animation-delay: 4400ms; }

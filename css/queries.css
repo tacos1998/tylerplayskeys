@@ -414,11 +414,11 @@ CSS Queries
 }
 
 @media screen and (max-width:520px) {
-    .title-name-sm { display: none; }
+    /* .title-name-sm { display: none; }
     .title-top-sm { display: none; }
     .title-bottom-sm { display: none; }
     .title-name-xs { display: block; }
-    .hero { background-size: 350px; }
+    .hero { background-size: 350px; } */
     #title-name-middle-xs { margin-top: 0px; }
     #title-name-bottom-xs { margin-top: 255px; }
     #subtitle-left-xs { font-size: 1.8em; }
