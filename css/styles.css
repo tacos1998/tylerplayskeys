@@ -330,7 +330,7 @@ footer p { font-size: 13px; margin: 0; }
 .delay-5 { animation-delay: 4400ms; }
 
 /* education and employment section */
-.education-experience { background: #f7f7f7; color: #848789; padding-bottom: 40px; }
+.education-experience { background: #f7f7f7; color: #848789; padding-bottom: 26px; }
 .education p strong, .experience p strong { color: #353738 }
 .ee-main { font-size: 18px; }
 h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 40px; }
