@@ -5,7 +5,7 @@ CSS Queries
 /* min-width */
 
 @media screen and (min-width:1278px) {
-    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .censr-top { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:1360px) {
@@ -13,7 +13,7 @@ CSS Queries
 }
 
 @media screen and (min-width:1440px) {
-    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -20px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .kq-tile { background: url(../img/band-whole-compressed.webp) no-repeat center -20px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:1450px) {
@@ -33,7 +33,7 @@ CSS Queries
 }
 
 @media screen and (min-width:1680px) {
-    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -26px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .kq-tile { background: url(../img/band-whole-compressed.webp) no-repeat center -26px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:1780px) {
@@ -53,7 +53,7 @@ CSS Queries
 }
 
 @media screen and (min-width:1990px) {
-    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -30px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .kq-tile { background: url(../img/band-whole-compressed.webp) no-repeat center -30px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:2030px) {
@@ -77,7 +77,7 @@ CSS Queries
 }
 
 @media screen and (min-width:2300px) {
-    .frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center -35px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .kq-tile { background: url(../img/band-whole-compressed.webp) no-repeat center -35px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 }
 
 @media screen and (min-width:2320px) {
@@ -89,7 +89,7 @@ CSS Queries
 }
 
 @media screen and (min-width:2450px) {
-    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center -13px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .censr-top { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center -13px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
     .section-4 { background: url(../img/piano-bw.webp) no-repeat center -180px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 }
 
@@ -154,7 +154,7 @@ CSS Queries
 }
 
 @media screen and (max-width:991px) {
-    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
+    .censr-top { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 350px; width: 100%; position: absolute; bottom: 0; }
     #photo-text { font-size: 10px; }
     #freelance-music-text { font-size: 14px; }
@@ -267,7 +267,7 @@ CSS Queries
 }
 
 @media screen and (max-width:670px) {
-    .seat-red { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
+    .censr-top { background: url(../img/tigerhacks-banner-clip-md.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: top; }
     .small-featured-img { height: 250px; width: 100%; position: absolute; bottom: 0; }
     #youtube-container { height: 400px; }
     #musician-small { background-position-y: -30px; }
@@ -296,7 +296,6 @@ CSS Queries
     .title-bottom-sm { margin-top: 160px; }
     #musician-small { background-position-y: -20px; }
     p.text-intro { font-size: 22px; }
-    .shop-btn { padding: 15px 25px; font-size: 10px; }
     .section-1 { background: url(../img/Cerner-clipped.webp) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 }
 

@@ -174,12 +174,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 Headings
 ========================================================================== */
 h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
-/* h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; } */
 h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 70px; }
-/* h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/mech-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; } */
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
-h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 20px; font-weight: 600; margin-top: 30px; line-height: 2; margin-bottom: 0px; }
-.twitter-post-username-slash { color: #848789; font-weight: 300; }
+h2.reviewer { color: #353738; letter-spacing: 2px; font-size: 20px; font-weight: 600; margin-top: 30px; line-height: 2; margin-bottom: 0px; }
+.reviewer-slash { color: #848789; font-weight: 300; }
 h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; font-style: italic; }
 /* ==========================================================================
 User Styles
@@ -215,9 +213,9 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
-.seat-red { background: url(../img/tigerhacks.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.censr-top { background: url(../img/tigerhacks.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #musician-small { background: url(../img/wine-bar.webp) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.frame-red { background: url(../img/band-whole-compressed.webp) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.kq-tile { background: url(../img/band-whole-compressed.webp) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 113px; height: 118px; background: url(../img/bicycle-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
@@ -225,7 +223,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .logo-3 { width: 208px; height: 67px; background: url(../img/bicycles-sml-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
 .flex-container { background-color: #f7f7f7; padding: 30px 0 35px; text-align: center; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
-p.twitter-post { color: #848789; font-size: 18px; font-style: italic; font-weight: 300; margin-bottom: 50px; margin-top: 0px; }
+p.review { color: #848789; font-size: 18px; font-style: italic; font-weight: 300; margin-bottom: 50px; margin-top: 0px; }
 .left-box-1 { width: 50%; float: left; }
 .left-box-2 { width: 50%; float: right; }
 .left-box-btm { width: 100%; }
@@ -255,8 +253,6 @@ a.close-overlay.hidden { display: none }
 .bg-img.hover .overlay { opacity: 1 }
 .bg-img.hover .overlay a.expand { top: 50%; margin-top: -30px; opacity: 1; }
 .discover { background-color: #282f35; padding: 70px 0; text-align: center; }
-.shop-btn { border: solid 1px #bbb; padding: 15px 50px; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-weight: 400; }
-.shop-btn:hover, .shop-btn:focus { border: solid 1px #64c29e; }
 .sign-up { text-align: center; }
 .signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
 .submit-btn { background-color: #64c29e; color: #fff; border: solid 1px #64c29e; font-weight: 300; padding: 25px 50px; }
@@ -279,7 +275,6 @@ footer p { font-size: 13px; margin: 0; }
 .title-text {  font-size: 4em; }
 
 /* monospace font */
-
 .engineer { font-family: 'Courier New', Courier, monospace; text-align: left; }
 #title-left-md { font-size: 2.2em; }
 #title-left-sm { font-size: 2.2em; }
@@ -295,13 +290,10 @@ footer p { font-size: 13px; margin: 0; }
 #name-left-xs-portfolio { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.94em; vertical-align: 1px; }
 
 /* gradient font */
-
 .musician-80 { background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; margin-left: 30px; }
 .musician-334 { background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; margin-left: 30px; }
 .musician-90 { background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; }
-
 /* 80 */
-/* #title-right-lg { margin-left: 30px; } */
 #title-right-md { font-size: 2.2em; }
 #title-right-sm { font-size: 2.2em; }
 /* 334 */
@@ -315,28 +307,40 @@ footer p { font-size: 13px; margin: 0; }
 #name-right-mobile { font-size: 3em; }
 #subtitle-right-xs { font-size: 1em; }
 #subtitle-bottom-right-xs { font-size: 1em; }
-
 #name-right-xs-portfolio { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
 .music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
-
-
-
+/* classes to display landing text based on viewport size */
 .title-top-lg { margin-top: 50px; }
 .title-top-md { display: none; margin-top: 105px; }
 .title-top-sm { display: none; margin-top: 110px; }
 .title-bottom-lg { margin-top: 50px; }
 .title-bottom-md { display: none; margin-top: 105px; }
 .title-bottom-sm { display: none; margin-top: 110px; }
-
-
-
 .title-name-lg { margin-top: 10px; }
 .title-name-md { display: none; }
 .title-name-sm { display: none; }
 .title-name-xs { display: none; }
 
+/* classes for animation sequencing */
+.delay-1 { animation-delay: 800ms; }
+.delay-2 { animation-delay: 1800ms; }
+.delay-3 { animation-delay: 2600ms; }
+.delay-4 { animation-delay: 3600ms; }
+.delay-5 { animation-delay: 4400ms; }
 
+/* education and employment section */
+.education-experience { background: #f7f7f7; color: #848789; padding-bottom: 40px; }
+.education p strong, .experience p strong { color: #353738 }
+.ee-main { font-size: 18px; }
+h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 40px; }
+#linkedin-icon { font-size: 50px; color: white; margin-right: 5px; }
+#github-icon { font-size: 50px; color: white; margin-left: 5px;}
+#linkedin-icon:hover, #linkedin-icon:active, #github-icon:hover, #github-icon:active { color: black; transition: 0.5s; }
+#resume-btn { color: white; background-color: transparent; border-color: white; font-weight: bold; }
+#resume-btn:hover, #resume-btn:active { color: black; background-color: white; border-color: white; transition: 0.5s; outline: none; }
+
+/* homepage styles */
 .intro-link { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
@@ -349,14 +353,14 @@ footer p { font-size: 13px; margin: 0; }
 #mobile-name-left { text-align: center; }
 #mobile-name-right { text-align: center; }
 #default-nav { display: table; margin: 0 auto; }
+
+/* portfolio pages */
 #mobile-name-portfolio { text-align: center; margin-bottom: 0px; margin-top: 0px; display: block; cursor: pointer; }
 #about-portfolio { background: #fbfbfb; }
 p.text-intro-portfolio { font-size: 22px; text-align: justify; color: #848789; }
 p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #848789; }
 .portfolio-link { color: #848789; text-decoration: underline; }
 .portfolio-subtitle-link { text-decoration: underline; }
-
-
 #rhythms-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
 #prc-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
 #freelance-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
@@ -385,25 +389,3 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 #arcade-img { height: 400px; width: auto; margin-top: 40px; }
 #fathom-img { margin-top: 30px; }
 a, a:active, a:focus { outline: none; }
-
-.education-experience { background: #f7f7f7; color: #848789; padding-bottom: 40px; }
-.education p strong, .experience p strong { color: #353738 }
-.ee-main { font-size: 18px; }
-
-h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 40px; }
-
-.delay-1 { animation-delay: 800ms; }
-.delay-2 { animation-delay: 1800ms; }
-.delay-3 { animation-delay: 2600ms; }
-.delay-4 { animation-delay: 3600ms; }
-.delay-5 { animation-delay: 4400ms; }
-
-#linkedin-icon { font-size: 50px; color: white; margin-right: 5px; }
-#github-icon { font-size: 50px; color: white; margin-left: 5px;}
-
-#status { font-size: 18px; text-align: center; color: white; }
-
-#resume-btn { color: white; background-color: transparent; border-color: white; font-weight: bold; }
-#resume-btn:hover, #resume-btn:active { color: black; background-color: white; border-color: white; transition: 0.5s; outline: none; }
-
-#linkedin-icon:hover, #linkedin-icon:active, #github-icon:hover, #github-icon:active { color: black; transition: 0.5s; }
