@@ -277,46 +277,66 @@ footer p { font-size: 13px; margin: 0; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
 .title-text {  font-size: 4em; }
-#title-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; }
-#title-right-lg { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#title-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.2em; }
-#title-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.2em; }
-#title-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.2em; }
-#title-right-sm { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.2em; }
+
+/* monospace font */
+
+.engineer { font-family: 'Courier New', Courier, monospace; text-align: left; }
+#title-left-md { font-size: 2.2em; }
+#title-left-sm { font-size: 2.2em; }
+#title-left-bottom-lg { font-size: 3.5em; }
+#title-left-bottom-md { font-size: 2.4em; }
+#title-left-bottom-sm { font-size: 2.4em; }
+#name-left-lg { font-size: 4em; }
+#name-left-md { font-size: 3.8em; }
+#name-left-sm { font-size: 3.5em; }
+#name-left-mobile { font-size: 3.1em; }
+#subtitle-left-xs { font-size: 1em; }
+#subtitle-bottom-left-xs { font-size: 1em; }
+#name-left-xs-portfolio { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.94em; vertical-align: 1px; }
+
+/* gradient font */
+
+.musician-80 { background: -webkit-linear-gradient(323deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; margin-left: 30px; }
+.musician-334 { background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; margin-left: 30px; }
+.musician-90 { background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: right; font-weight: bold; }
+
+/* 80 */
+/* #title-right-lg { margin-left: 30px; } */
+#title-right-md { font-size: 2.2em; }
+#title-right-sm { font-size: 2.2em; }
+/* 334 */
+#title-right-bottom-lg { font-size: 3.5em; }
+#title-right-bottom-md { font-size: 2.4em; }
+#title-right-bottom-sm { font-size: 2.4em; }
+/* 90 */
+#name-right-lg { margin-left: 30px; font-size: 4em; }
+#name-right-md { margin-left: 30px; font-size: 3.8em; }
+#name-right-sm { margin-left: 30px; font-size: 3.5em; }
+#name-right-mobile { font-size: 3em; }
+#subtitle-right-xs { font-size: 1em; }
+#subtitle-bottom-right-xs { font-size: 1em; }
+
+#name-right-xs-portfolio { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
+.music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+
+
+
 .title-top-lg { margin-top: 50px; }
 .title-top-md { display: none; margin-top: 105px; }
 .title-top-sm { display: none; margin-top: 110px; }
 .title-bottom-lg { margin-top: 50px; }
 .title-bottom-md { display: none; margin-top: 105px; }
 .title-bottom-sm { display: none; margin-top: 110px; }
-#title-left-bottom-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
-#title-right-bottom-lg { text-align: right; font-weight: bold; margin-left: 30px; font-size: 3.5em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#title-left-bottom-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
-#title-right-bottom-md { text-align: right; font-weight: bold; margin-left: 30px; font-size: 2.4em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#title-left-bottom-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 2.4em; }
-#title-right-bottom-sm { text-align: right; font-weight: bold; margin-left: 30px; font-size: 2.4em; background: -webkit-linear-gradient(334deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-#logo-left { font-family: 'Courier New', Courier, monospace; font-size: 1em; }
-#logo-right { font-weight: bold; margin-left: 30px; font-size: 1em; background: -webkit-linear-gradient(90deg, #09009f, #00dc80 80%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+
+
 .title-name-lg { margin-top: 10px; }
 .title-name-md { display: none; }
 .title-name-sm { display: none; }
 .title-name-xs { display: none; }
-#name-left-lg { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 4em; }
-#name-right-lg { text-align: right; font-weight: bold; margin-left: 30px; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 4em; }
-#name-left-md { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.8em; }
-#name-right-md { text-align: right; font-weight: bold; margin-left: 30px;     background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.8em; }
-#name-left-sm { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.5em; }
-#name-right-sm { text-align: right; font-weight: bold; margin-left: 30px; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5em; }
-#name-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.8em; }
-#name-left-xs-portfolio { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 0.94em; vertical-align: 1px; }
-#name-right-xs-portfolio { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
-#name-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 0.8em; }
-#name-left-mobile { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 3.1em; }
-#name-right-mobile { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3em; }
-#subtitle-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 1em; }
-#subtitle-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
-#subtitle-bottom-left-xs { font-family: 'Courier New', Courier, monospace; text-align: left; font-size: 1em; }
-#subtitle-bottom-right-xs { text-align: right; font-weight: bold; background: -webkit-linear-gradient(323deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 1em; }
+
+
 .intro-link { color: white; text-decoration: underline; }
 #photo-text { font-size: 10px; text-align: left; }
 #code-icon { font-size: 32px; margin-bottom: 28px; color: #60c49c; }
@@ -335,12 +355,15 @@ p.text-intro-portfolio { font-size: 22px; text-align: justify; color: #848789; }
 p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #848789; }
 .portfolio-link { color: #848789; text-decoration: underline; }
 .portfolio-subtitle-link { text-decoration: underline; }
-.dev-font {  font-family: 'Courier New', Courier, monospace; }
-.music-font { font-weight: bold; background: -webkit-linear-gradient(283deg, #09009f, #00dc80 90%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+
 #rhythms-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
+#prc-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
+#freelance-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
 #days-header { font-size: 5em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
 #censr-header { font-size: 6em; text-align: center; margin-bottom: 0px; margin-top: 0px; }
 #rhythms-subtitle { font-size: 1.5em; text-align: center; font-weight: 100; letter-spacing: 2px; margin-top: 25px; margin-bottom: 45px; }
+#freelance-subtitle { font-size: 1.5em; text-align: center; font-weight: 100; letter-spacing: 2px; margin-top: 25px; margin-bottom: 45px; }
 #censr-subtitle { font-size: 1.5em; text-align: center; font-weight: 100; letter-spacing: 2px; margin-top: 25px; margin-bottom: 45px; }
 .portfolio-video { aspect-ratio: 16 / 9; width: 100%; }
 .center { text-align: center; }

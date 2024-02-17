@@ -148,6 +148,7 @@ CSS Queries
 
 @media screen and (max-width:1205px) {
     p.text-intro { font-size: 28px; }
+    #days-header { font-size: 4.5em; }
 }
 
 @media screen and (max-width:1130px) {
@@ -155,6 +156,14 @@ CSS Queries
     p.text-intro-smaller { font-size: 16px; }
     /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -270px center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
     #days-header { font-size: 4em; } */
+}
+
+@media screen and (max-width:1096px) {
+    #days-header { font-size: 4em; }
+}
+
+@media screen and (max-width:1084px) {
+    #prc-header { font-size: 5em; }
 }
 
 @media screen and (max-width:1057px) {
@@ -328,6 +337,10 @@ CSS Queries
     /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -120px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
+@media screen and (max-width:621px) {
+    #prc-header { font-size: 4em; }
+}
+
 @media screen and (max-width:617px) {
     p.text-intro { font-size: 21px; }
     /* p.text-intro-smaller { font-size: 16px; } */
@@ -387,6 +400,10 @@ CSS Queries
     p.text-intro { font-size: 19px; }
 }
 
+@media screen and (max-width:560px) {
+    #freelance-subtitle { letter-spacing: 0px; }
+}
+
 @media screen and (max-width:542px) {
     p.text-intro { font-size: 18px; }
 }
@@ -413,6 +430,10 @@ CSS Queries
     p.text-intro { font-size: 17px; }
 }
 
+@media screen and (max-width:510px) {
+    #prc-header { font-size: 3.5em; }
+}
+
 
 @media screen and (max-width:500px) {
     .section-4 { background: url(../img/piano-bw.webp) no-repeat left bottom; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
@@ -421,6 +442,14 @@ CSS Queries
 @media screen and (max-width:494px) {
     p.text-intro { font-size: 16px; }
     #days-header { font-size: 2.5em; }
+}
+
+@media screen and (max-width:490px) {
+    #prc-header { font-size: 3em; }
+}
+
+@media screen and (max-width:485px) {
+    #freelance-subtitle { font-size: 1.2em; }
 }
 
 @media screen and (max-width:480px) {
@@ -448,6 +477,7 @@ CSS Queries
 
 @media screen and (max-width:465px) {
     p.text-intro { font-size: 23px; }
+    #freelance-header { font-size: 5.5em; }
 }
 
 @media screen and (max-width:448px) {
@@ -485,6 +515,7 @@ CSS Queries
 
 @media screen and (max-width:424px) {
     #rhythms-header { font-size: 5.2em; }
+    #freelance-header { font-size: 5.2em; }
     #censr-subtitle { font-size: 1.4em; }
 }
 
@@ -496,9 +527,18 @@ CSS Queries
     p.text-intro { font-size: 20px; }
 }
 
+@media screen and (max-width:404px) {
+    #freelance-header { font-size: 4.5em; }
+}
+
 @media screen and (max-width:400px) {
     p.text-intro { font-size: 19px; }
     #days-header { font-size: 2em; }
+    #freelance-subtitle { font-size: 1em; }
+}
+
+@media screen and (max-width:397px) {
+    #prc-header { font-size: 2.5em; }
 }
 
 @media screen and (max-width:384px) {
@@ -539,6 +579,10 @@ CSS Queries
     /* .section-4 { background: url(../img/piano-bw.jpeg) no-repeat -300px 0px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; } */
 }
 
+@media screen and (max-width:355px) {
+    #freelance-header { font-size: 3.9em; }
+}
+
 @media screen and (max-width:350px) {
     .hero { background-size: 330px; }
     #title-name-middle-xs { margin-top: 100px; }
@@ -550,12 +594,17 @@ CSS Queries
     p.text-intro { font-size: 16px; }
 }
 
+@media screen and (max-width:344px) {
+    #freelance-subtitle { font-size: 0.9em; }
+}
+
 @media screen and (max-width:340px) {
     #youtube-container { height: 200px; }
 }
 
 @media screen and (max-width:335px) {
     p.text-intro { font-size: 15px; }
+    #prc-header { font-size: 2.3em; }
 }
 
 @media screen and (max-width:330px) {
