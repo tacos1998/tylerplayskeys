@@ -397,3 +397,13 @@ h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; let
 .delay-3 { animation-delay: 2600ms; }
 .delay-4 { animation-delay: 3600ms; }
 .delay-5 { animation-delay: 4400ms; }
+
+#linkedin-icon { font-size: 50px; color: white; margin-right: 5px; }
+#github-icon { font-size: 50px; color: white; margin-left: 5px;}
+
+#status { font-size: 18px; text-align: center; color: white; }
+
+#resume-btn { color: white; background-color: transparent; border-color: white; font-weight: bold; }
+#resume-btn:hover, #resume-btn:active { color: black; background-color: white; border-color: white; transition: 0.5s; }
+
+#linkedin-icon:hover, #linkedin-icon:active, #github-icon:hover, #github-icon:active { color: black; transition: 0.5s; }

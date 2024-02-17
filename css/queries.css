@@ -510,7 +510,7 @@ CSS Queries
     #subtitle-right-xs { font-size: 1.4em; }
     #subtitle-bottom-left-xs { font-size: 1.3em; }
     #subtitle-bottom-right-xs { font-size: 1.3em; }
-    .text-intro, .text-intro-smaller { font-weight: normal; }
+    .text-intro, .text-intro-smaller, #status { font-weight: normal; }
 }
 
 @media screen and (max-width:424px) {
