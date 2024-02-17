@@ -385,3 +385,9 @@ p.text-intro-smaller-portfolio { font-size: 16px; text-align: justify; color: #8
 #arcade-img { height: 400px; width: auto; margin-top: 40px; }
 #fathom-img { margin-top: 30px; }
 a, a:active, a:focus { outline: none; }
+
+.education-experience { background: #fbfbfb; color: #848789; padding-bottom: 40px; }
+.education p strong, .experience p strong { color: #353738 }
+.ee-main { font-size: 18px; }
+
+h2.ee-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 40px; }
